@@ -1,0 +1,68 @@
+body.custom-login-page {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2) !important;
+    font-family: Arial, sans-serif;
+}
+body.custom-login-page .login-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+body.custom-login-page .login-container h1 {
+    color: #4a00e0;
+    margin-bottom: 0;
+}
+body.custom-login-page .login-container p {
+    color: #666;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+body.custom-login-page .login-container input[type="text"],
+body.custom-login-page .login-container input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+body.custom-login-page .login-container input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+body.custom-login-page .login-container button {
+    width: 100%;
+    padding: 0.75rem;
+    background: #4a00e0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+body.custom-login-page .login-container button:hover {
+    background: #8e2de2;
+}
+body.custom-login-page .login-container a {
+    display: block;
+    margin-top: 1rem;
+    color: #4a00e0;
+    text-decoration: none;
+}
+body.custom-login-page .login-container a:hover {
+    text-decoration: underline;
+}
+body.custom-login-page .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
+}
