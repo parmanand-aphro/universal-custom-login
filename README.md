@@ -4,7 +4,7 @@
 
 ## Usage
 1. Open `custom-login-plug.php` to configure any necessary settings (e.g., database connection if applicable).
-2. Customize the login page by editing files in the `templates/` directory.
+2. Customise the login page by editing files in the `templates/` directory.
 3. Add or modify styles and scripts in the `assets/` directory as needed.
 
 ## Contributing
